@@ -1,0 +1,51 @@
+{
+  "name": "webtask-require-version",
+  "description": "Override require so you can test your webtask.io scripts.",
+  "version": "1.0.0",
+  "author": "Luke Karrys",
+  "bugs": {
+    "url": "https://github.com/lukekarrys/webtask-require-version/issues"
+  },
+  "dependencies": {
+    "resolve": "^1.1.6",
+    "semver": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "babel-tape-runner": "^1.2.0",
+    "precommit-hook": "^3.0.0",
+    "standard": "^5.0.0",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.2"
+  },
+  "homepage": "https://github.com/lukekarrys/webtask-require-version",
+  "keywords": [
+    "webtask",
+    "webtask.io",
+    "require",
+    "version",
+    "semver"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lukekarrys/webtask-require-version.git"
+  },
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "lint": "standard",
+    "prepublish": "npm run compile",
+    "test": "babel-tape-runner test/*.js | tap-spec",
+    "validate": "npm ls"
+  },
+  "standard": {
+    "ignore": [
+      "**/lib/**"
+    ]
+  }
+}
