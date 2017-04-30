@@ -1,6 +1,8 @@
 webtask-require-version
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukekarrys/webtask-require-version.svg)](https://greenkeeper.io/)
+
 Override `require` so you can test your [webtask.io](https://webtask.io) scripts.
 
 [![NPM](https://nodei.co/npm/webtask-require-version.png)](https://nodei.co/npm/webtask-require-version/)
