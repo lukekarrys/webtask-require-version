@@ -6,6 +6,7 @@ Override `require` so you can test your [webtask.io](https://webtask.io) scripts
 [![NPM](https://nodei.co/npm/webtask-require-version.png)](https://nodei.co/npm/webtask-require-version/)
 [![Build Status](https://travis-ci.org/lukekarrys/webtask-require-version.png?branch=master)](https://travis-ci.org/lukekarrys/webtask-require-version)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukekarrys/webtask-require-version.svg)](https://greenkeeper.io/)
 
 
 ## Install
